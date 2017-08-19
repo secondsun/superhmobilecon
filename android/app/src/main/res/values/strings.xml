@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SuperHMobileCon</string>
+    <string name="main_not_signed_in">You are not signed in.</string>
+    <string name="main_signed_in">You are signed in</string>
 </resources>
