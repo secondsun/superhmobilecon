@@ -32,4 +32,10 @@ public class MainActivityCheckSigninTest {
         onView(withId(R.id.sign_in_message)).check(matches(withText(R.string.main_not_signed_in)));
     }
 
+
+    @Test
+    public void displaysSignInIfSignedIn() throws Exception {
+        onView(withId(R.id.sign_in_message)).check(matches(withText(R.string.main_signed_in)));
+    }
+
 }
